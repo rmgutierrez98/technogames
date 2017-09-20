@@ -1,0 +1,28 @@
+{
+  "name": "technogames",
+  "version": "1.0.0",
+  "description": "aqui podras encontrar todo lo relacionado con video juegos, para dispositivos moviles,pc,xbox,ps y nintendos",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "videos",
+    "juegos",
+    "android",
+    "wii",
+    "xbox",
+    "ps",
+    "windows"
+  ],
+  "author": "Melissa Gutierrez, Nicolas Pardo",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  }
+}
