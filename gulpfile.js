@@ -5,7 +5,7 @@ gulp.task('games', function() {
   gulp.src('./')
     .pipe(server({
       livereload: true,
-      directoryListing: true,
+      directoryListing: false,
       open: true,
       port: 8500
     }));
