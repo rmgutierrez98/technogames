@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Inicio</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="node_modules/materialize-css/dist/css/materialize.min.css" rel="stylesheet">
     <link href="Styles/estilo.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
 
 <body>
-    <nav>
+    <nav class="light-blue darken-3">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">TECHNOGAMES</a>
+          <a href="#" class="brand-logo">TECHNOGAMES</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="side-nav" id="mobile-demo">
               <li><a class="dropdown-button" href="#!" data-activates="xbox_c">XBOX<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -46,7 +47,7 @@
             <li><a href="paginas/android.html">ANDROID</a></li>
             <li><a href="paginas/ios.html">IOS</a></li>
       </ul>
-
+      
       <ul id="pc_c" class="dropdown-content">
             <li><a href="paginas/windows.html">WINDOWS</a></li>
             <li><a href="paginas/mac.html">MAC</a></li>
@@ -58,7 +59,7 @@
       </ul>
       
       <ul id="xbox" class="dropdown-content">
-        <li><a href="paginas/xboxo360.html">XBOX 360</a></li>
+        <li><a href="paginas/xbox360.html">XBOX 360</a></li>
         <li><a href="paginas/xboxone.html">XBOX ONE</a></li>
       </ul>
 
@@ -83,54 +84,90 @@
       </ul>
 
       <video class="responsive-video" autoplay muted="1" autoloop>
-          <source src="Assets/Video/CARS 2.mp4" type="video/mp4">
+          <source src="Assets/videos/ps4/CARS2.mp4" type="video/mp4">
       </video>
 
-      <div class="container">  
-          <div class="row">
-            <div class="col s12 m6 l4">
+      <div class="imagenes">  
+        <div class="row">
+          <div class="col s12 m6 offset-l1 l5 " >
               <div class="card">
                 <div class="card-image">
-                  <img src="Assets/Img/sonic-1024.jpg">
-                  <span class="card-title">Card Title</span>
+                  <img src="../Assets/sonic.jpg">
                   <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                 </div>
                 <div class="card-content">
+                  <span class="card-title">ANGRY BIRDS MATCH</span>
                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                 </div>
               </div>
-            </div>
-          
-            <div class="col s12 m6 l4">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="Assets/Img/sonic-1024.jpg">
-                    <span class="card-title">Card Title</span>
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                  </div>
-                  <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                  </div>
-                </div>
+          </div>
+        
+          <div class="col s12 m6 l5 " >
+            <div class="card">
+              <div class="card-image">
+                  <img src="../Assets/sonic.jpg">
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
               </div>
-            
-              <div class="col s12 m6 l4">
-                  <div class="card">
-                    <div class="card-image">
-                      <img src="Assets/Img/sonic-1024.jpg">
-                      <span class="card-title">Card Title</span>
-                      <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="card-content">
+                <span class="card-title">NITRO CHIMP GRAND PRIX</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 m6 offset-l1 l5">
+            <div class="card">
+              <div class="card-image">
+                <img src="../Assets/sonic.jpg">
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">SNIPER GHOST WARRIOR</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
 
-            
-
+          <div class="col s12 m6  l5 " >
+            <div class="card">
+              <div class="card-image">
+                <img src="../Assets/sonic.jpg">
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">WWE TAP MANIA</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <footer class="page-footer light-blue darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">TECHNOGAMES</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">SIGUENOS EN:</h5>
+                <ul class="iconos">
+                  <a class="btn btn-floating pulse light-blue accent-4"><i class="icon-facebook"></i></a>
+                  <a class="btn btn-floating pulse orange darken-4"><i class="icon-google-plus3"></i></a>
+                  <a class="btn btn-floating pulse deep-purple lighten-2"><i class="icon-instagram"></i></a>
+                  <a class="btn btn-floating pulse"><i class="icon-whatsapp"></i></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Technogames, All Rights Reserved
+            <a class="grey-text text-lighten-4 right">Create by Melissa Gutierrez Nicolas Pardo</a>
+            </div>
+          </div>
+      </footer>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
