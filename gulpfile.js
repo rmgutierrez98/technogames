@@ -12,20 +12,7 @@ gulp.task('games', function() {
     
 });
 
-gulp.task('build-html', function() {
-  return gulp.src(['*.html','Pagi*/*.html'])
-      .pipe(useref())
-      .pipe(gulpif('j*/*.js', uglify()))
-      .pipe(gulpif('style*/*.css', minifyCss()))
-      .pipe(gulp.dest('build'));
-});
 
-gulp.task('build-assets',function(){
-  return gulp.src('Asset*/Im*/**')
-  .pipe(gulp.dest('build'))
-})
-
-gulp.task('build',['build-html','build-assets'])
 
 
 
