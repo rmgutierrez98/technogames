@@ -12,3 +12,10 @@ main {
 .imagenes{
     margin-top: 2%;
 }
+
+.titulo{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+}
